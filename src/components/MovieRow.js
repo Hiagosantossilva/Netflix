@@ -10,7 +10,7 @@ export default ({title, items}) => {
         if(x > 0){
             x = 0;
         }
-        setScrollX()
+        setScrollX(x)
     }
     const handleRightArrow = () => {
         let x = scrollX - Math.round(window.innerWidth / 2)
